@@ -15,12 +15,14 @@ class _BeautyScreenState extends State<BeautyScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: 
-      Row(children: [
-        Icon(
-            icons.location_on,
-        )
-      ],)
+      body:
+      Row(
+        children: [
+          Icon(Icons.location_on),
+          SizedBox(width: 8),
+          Text("Location"),
+        ],
+      )
     );
   }
 }
