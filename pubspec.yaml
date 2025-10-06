@@ -5,12 +5,15 @@ version: 0.1.0
 
 environment:
   sdk: ^3.7.2
+  
 
 dependencies:
   flutter:
     sdk: flutter
   lottie: ^2.3.1 
   animated_text_kit: ^4.3.0
+  geolocator: ^14.0.2
+  intl: ^0.20.2
 
 
 dev_dependencies:
@@ -27,3 +30,31 @@ flutter:
     - assets/electrician.json
     - assets/painter.json
     - assets/plumber.json
+    - assets/images/bb987eec-c72f-4b6a-b8e5-383879c85b97.jpg
+    - assets/images/painter.jpg
+    - assets/images/2310-w030-n003-866B-p15-866.jpg
+    - assets/images/3781959.jpg
+    - assets/images/logoflutter.png
+    - assets/images/profile.jpg
+    - assets/images/offer.png
+    - assets/images/housemaid.jpeg
+    - assets/images/child-care.jpeg
+    - assets/images/caterers.jpeg
+    - assets/images/women_salon.jpeg
+    - assets/images/men_salon.jpeg
+    - assets/images/explore.jpeg
+    - assets/images/manicure.jpeg
+    - assets/images/pedicure.jpeg
+    - assets/images/haircare.jpeg
+    - assets/images/waxing.jpeg
+    - assets/images/massage.jpeg
+    - assets/images/offerdoorbell.jpeg
+    - assets/images/plumber.jpeg
+    - assets/images/plum6.jpeg
+    - assets/images/plum1.jpeg
+    - assets/images/plum2.jpeg
+    - assets/images/plum3.jpeg
+    - assets/images/plum4.jpeg
+    - assets/images/plum5.jpeg
+
+
