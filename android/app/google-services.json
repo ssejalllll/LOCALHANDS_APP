@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "589199031079",
+    "project_id": "localhands-6a37a",
+    "storage_bucket": "localhands-6a37a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589199031079:android:7eedbadd14ea3935368702",
+        "android_client_info": {
+          "package_name": "com.example.localhands_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_5Skgeb4VnsT4DjzxPOcSjKLLXlive74"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -4,7 +4,7 @@ publish_to: 'none'
 version: 0.1.0
 
 environment:
-  sdk: ^3.7.2
+  sdk: ^3.9.0
   
 
 dependencies:
@@ -14,12 +14,23 @@ dependencies:
   animated_text_kit: ^4.3.0
   geolocator: ^14.0.2
   intl: ^0.20.2
+  google_fonts: ^6.3.2
+  table_calendar: ^3.1.0  
+  iconsax: ^0.0.8
+  curved_navigation_bar: ^1.0.3
+  firebase_core: ^3.6.0
+  syncfusion_flutter_charts: ^28.1.38
+  firebase_auth: ^5.3.1
+
+  
+
 
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
+  
 
 flutter:
 
@@ -30,31 +41,51 @@ flutter:
     - assets/electrician.json
     - assets/painter.json
     - assets/plumber.json
-    - assets/images/bb987eec-c72f-4b6a-b8e5-383879c85b97.jpg
-    - assets/images/painter.jpg
-    - assets/images/2310-w030-n003-866B-p15-866.jpg
-    - assets/images/3781959.jpg
-    - assets/images/logoflutter.png
-    - assets/images/profile.jpg
-    - assets/images/offer.png
-    - assets/images/housemaid.jpeg
-    - assets/images/child-care.jpeg
-    - assets/images/caterers.jpeg
-    - assets/images/women_salon.jpeg
-    - assets/images/men_salon.jpeg
-    - assets/images/explore.jpeg
-    - assets/images/manicure.jpeg
-    - assets/images/pedicure.jpeg
-    - assets/images/haircare.jpeg
-    - assets/images/waxing.jpeg
-    - assets/images/massage.jpeg
-    - assets/images/offerdoorbell.jpeg
-    - assets/images/plumber.jpeg
-    - assets/images/plum6.jpeg
-    - assets/images/plum1.jpeg
-    - assets/images/plum2.jpeg
-    - assets/images/plum3.jpeg
-    - assets/images/plum4.jpeg
-    - assets/images/plum5.jpeg
+    - assets/bb987eec-c72f-4b6a-b8e5-383879c85b97.jpg
+    - assets/painter.jpg
+    
+    - assets/3781959.jpg
+    - assets/logoflutter.png
+    - assets/profile.jpg
+    - assets/offer.png
+    - assets/housemaid.jpeg
+    - assets/child-care.jpeg
+    - assets/women_salon.jpeg
+    - assets/men_salon.jpeg
+    - assets/explore.jpeg
+    - assets/manicure.jpeg
+    - assets/pedicure.jpeg
+    - assets/haircare.jpeg
+    - assets/waxing.jpeg
+    - assets/massage.jpeg
+    - assets/offerdoorbell.jpeg
+    - assets/plumber.jpeg
+    - assets/plum6.jpeg
+    - assets/plum1.jpeg
+    - assets/plum2.jpeg
+    - assets/plum3.jpeg
+    - assets/plum4.jpeg
+    - assets/plum5.jpeg
+    - assets/maid1.jpg
+    - assets/maid2.jpg
+    - assets/maid3.jpg
+    - assets/download.jpg
+    - assets/beauty.jpg
+    - assets/b1.jpg
+    - assets/b2.jpg
+    - assets/b3.jpg
+    - assets/beaty1.jpg
+    - assets/ocean.jpg
+    - assets/maid.jpg
+    - assets/caterings.jpg
+    - assets/diwali.jpg
+    - assets/child-care.jpeg
+    - assets/plumberwallpaper.jpg
+    - assets/logoicon.png
+
+    # 👇 Add your services folder (includes all 5 JPGs)
+    - assets/services/
 
 
+    - assets/login/help.json
+    - assets/login/hashtag loader.json

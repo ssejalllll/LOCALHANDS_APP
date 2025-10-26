@@ -1,7 +1,18 @@
 import 'package:flutter/material.dart';
-import 'splash_screen.dart';
+import 'package:localhands_app/view/splash_screen.dart';
+import 'package:firebase_core/firebase_core.dart';
+
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  Firebase.initializeApp(
+    options: FirebaseOptions(
+      apiKey: "AIzaSyB_5Skgeb4VnsT4DjzxPOcSjKLLXlive74",
+      appId: "1:589199031079:android:7eedbadd14ea3935368702",
+      messagingSenderId: "589199031079",
+      projectId: "localhands-6a37a",
+  ),
+  );
   runApp(const MyApp());
 }
 

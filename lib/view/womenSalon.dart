@@ -7,11 +7,11 @@ class HomewomenSpa extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final List<Map<String, dynamic>> items = [
-      {"title": "HairCare", "image": "assets/images/haircare.jpeg"},
-      {"title": "Waxing", "image": "assets/images/waxing.jpeg"},
-      {"title": "Massage", "image": "assets/images/massage.jpeg"},
-      {"title": "Manicure", "image": "assets/images/manicure.jpeg"},
-      {"title": "Pedicure", "image": "assets/images/pedicure.jpeg"},
+      {"title": "HairCare", "image": "assets/haircare.jpeg"},
+      {"title": "Waxing", "image": "assets/waxing.jpeg"},
+      {"title": "Massage", "image": "assets/massage.jpeg"},
+      {"title": "Manicure", "image": "assets/manicure.jpeg"},
+      {"title": "Pedicure", "image": "assets/pedicure.jpeg"},
     ];
 
     return Column(
@@ -123,7 +123,7 @@ class HomewomenSpa extends StatelessWidget {
                 children: [
                   // Background image
                   Image.asset(
-                    "assets/images/offerdoorbell.jpeg",
+                    "assets/offerdoorbell.jpeg",
                     width: double.infinity,
                     height: double.infinity,
                     fit: BoxFit.cover,

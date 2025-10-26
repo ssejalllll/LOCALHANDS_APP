@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:localhands_app/login_screen.dart';
+import 'package:localhands_app/view/login.dart';
 
 
 class SplashScreen extends StatefulWidget {
@@ -41,7 +41,7 @@ class _SplashScreenState extends State<SplashScreen>
     Future.delayed(const Duration(seconds: 3), () {
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => const LoginScreen()),
+        MaterialPageRoute(builder: (context) => const AuthScreen()),
       );
     });
   }
@@ -60,7 +60,7 @@ class _SplashScreenState extends State<SplashScreen>
         gradient:LinearGradient(
           begin:Alignment.topLeft,
           end:Alignment.bottomRight,
-          colors: [Color(0xFF1D828E), Color(0xFF1D828)],
+          colors: [Color(0xFF1D828E), Color.fromARGB(15, 29, 150, 94)],
 
         )
 
@@ -74,7 +74,7 @@ class _SplashScreenState extends State<SplashScreen>
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   Image.asset(
-                    "assets/images/logoflutter.png",
+                    "assets/logoflutter.png",
                     height: 300,
                     fit: BoxFit.contain,
                   ),
